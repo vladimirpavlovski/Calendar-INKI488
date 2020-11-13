@@ -1,0 +1,224 @@
+html body{background:white; font-size:16px;max-width: 100%;
+    overflow-x: hidden;}
+
+html body .card{border-radius:15px;overflow:hidden;}
+html body .card-header{background:#2BAE66FF;color:#fff}
+html body .card-header .prevMonth{cursor:pointer}
+html body .card-header .nextMonth{cursor:pointer}
+html body .card-body{background:#FCF6F5FF}
+html body .card-body .days span{background:rgb(65, 175, 115);color:#fff;border-radius:50%;display:inline-block;height:45px;width:45px;line-height:45px;cursor:pointer}
+html body .card-body .days span:hover{background:rgb(146, 197, 169)}
+html body .card-body .dates span{background:rgb(65, 175, 115);color:#000;border-radius:50%;display:inline-block;height:45px;width:45px;line-height:45px;cursor:pointer}
+html body .card-body .dates span.active,html body .card-body .dates span:hover{background:rgb(108, 168, 135);color:#000}
+html body .card-body .dates span.ntMonth{color:white;background:rgb(139, 201, 167)}
+html body .card-body .dates span.ntMonth:hover{background:rgb(139, 201, 167);color:#000}
+html body .card#event .card-header .close{color:white;opacity:1}
+html body .card#event .card-body .events-today{height:210px;overflow-x:hidden}
+html body .card#event .card-body .events-input .data-invalid{border-color:black;}
+html body .card#event .card-body .events-input .error{font-size:12px;color:black;position:absolute;top:100%}@media(max-width: 767px)
+{html body .pa-sm{position:absolute}
+html body .card-body .days span{height:38px;width:38px;line-height:38px;font-size:.8rem}
+html body .card-body .dates span{height:38px;width:38px;line-height:38px;font-size:.8rem}
+html body .card#event .card-body .events-today{height:188px}}/*# sourceMappingURL=style.css.map */
+.navbar {
+    width: 100%;
+    background-color:rgb(65, 175, 115);
+    overflow: auto;
+    
+  }
+  
+ 
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; 
+    text-align: center; 
+  }
+  
+
+  .navbar a:hover {
+      color:rgb(65, 175, 115);
+    background-color: #FCF6F5FF;
+    border-radius: 30px;
+    height:100%;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+  }
+  .shadow{
+      text-align: center;
+      font-size: 20px;
+  }
+.student{
+background-color:;
+height: 650px;
+  }
+.studentimg{
+    height: 500px;
+    width: 500px;
+    border-radius:50%;
+}
+#info{
+    font-size: 35px;
+    text-align: center;
+    background-color: #2BAE66FF;
+    border-radius: 20px;
+    color:white;
+    
+}
+#studentinfo{
+    font-size: 35px;
+    text-align: left;
+    color: #2BAE66FF;
+}
+.footer{
+    padding-top:7px;
+    padding-bottom: 3.0rem; 
+    height: 33px;
+    background-color:#2BAE66FF;
+    text-align: center;
+  
+    color:white;
+    font-size: 20px;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #2BAE66FF;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+ #fikt{
+     height: 600px;
+     width: 400px;
+ }
+
+.bgimg {
+  background-image: url('https://www.veracode.com/sites/default/files/styles/blog_post_resize_960/public/developer-guide-blog-2.png?itok=JQGRVjEX');
+  height:754px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  color:white;
+
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 200px;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+  color:white;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: #222;
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 5vmin;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid #000;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #767676;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}

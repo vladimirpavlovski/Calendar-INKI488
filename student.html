@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calendar</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/materia/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        
+        <a  href="index.html">Почетна</a>
+        
+        <a href="student.html">Студент</a>
+        <a href="najava.html">Најава</a>
+        
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <img id="fikt" src="data:image/png;base64,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">
+                   </div>
+                   <div class="col-md-4">
+            
+        
+      <div class="card2">
+        <img src="vp.jpg" style="width:100%">
+        <h1>Владимир Павловски</h1>
+        <p class="title">ИНКИ488</p>
+        <p>ФИКТ</p>
+        
+        <p id="btninfo"><button >Контакт</button></p>
+      </div>
+    </div>
+      <div class="col-md-4" >
+        <div class="animated-title">
+          <div class="text-top">
+            <div>
+              <span>Email</span>
+              <span>vladimir.pavlovski@uklo.edu.mk</span>
+            </div>
+          </div>
+          <div class="text-bottom">
+            <div>ФИКТ</div>
+          </div>
+        </div>
+    </div>
+</div>
+      
+
+
+      <div class="footer">
+        
+        <p>© 2020 Владимир Павловски</p>
+    </div>
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+      </body>
+      </html>
